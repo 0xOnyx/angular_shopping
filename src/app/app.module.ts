@@ -10,7 +10,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductDetailsComponent } from './product-details/product-details.component';
 
 const rootPath = [
-  { paht: '', component: ProductListComponent },
+  { path: '', component: ProductListComponent },
   { path: 'products/:productId', component: ProductDetailsComponent },
 ];
 
